@@ -1,0 +1,219 @@
+#title
+{
+    background-color: rgb(207, 56, 56);
+    font-family: 'Montserrat', sans-serif;
+    height: 950px;
+}
+.col-lg-6
+{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1.5;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand
+{
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.container-fluid
+{
+    padding: 3% 10% 0%;
+}
+.dropdown-menu
+{
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+.nav-item
+{
+    margin: 0 15px;  
+    font-size: 1.2rem; 
+}
+.col-lg-6 h1{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 4rem;
+    line-height: 5.7rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.iphone
+{
+
+    display: inline-block;
+    transform: rotate(30deg);
+    overflow: hidden;
+    position: relative;
+    right: 50px;
+    margin-top: 30px;
+    width: 80%;
+    height: 90%;
+    z-index: 0;
+}
+.dnld
+{
+    margin: 3% 2% 1% 2%;
+}
+#features .container-fluid
+{
+    padding: 15%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+#features .row h3{
+    text-align: center;
+    font-weight: bold;
+}
+#features .row p{
+    text-align: center;
+    width: 90%;
+    font-family: Helvetica, sans-serif;
+    padding-right: 8%;
+}
+#features .First p{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+#features .Second p{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 20px;
+}
+#features .Third p{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left:30px;
+}
+span{
+    display: inline-block;
+    position: relative;
+    color: crimson;
+    padding:0 39% 3%;
+}
+span:hover
+{
+    color: rgb(124, 19, 19);
+}
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+#testimonials
+{
+    background-color: rgb(207, 56, 56);
+    text-align: center;
+    color:white;
+    padding: 4% 15% ;
+}
+#press
+{
+    background-color: rgb(207, 56, 56);
+    text-align: center;
+    color:white;
+    padding-top:3%;
+    padding-bottom: 5%;
+}
+.dog-photo
+{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    margin-top: 20px;
+    margin-right: 70px;
+    height: 180px;
+    width: auto;
+    border-radius: 100%;
+}
+.logos
+{
+    height: 50px;
+    width: auto;
+    margin: 8px;
+}
+#pricing
+{
+    text-align: center;
+    padding: 5% 7%;
+}
+#pricing h2
+{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+#pricing .Simp
+{
+    font-size: 1.2rem;
+}
+.pricec
+{
+    padding: 2% 2%;
+}
+@media ( max-width : 1028px )
+{
+    .iphone
+    {
+        position: static;
+        transform: rotate(0);
+       
+    }
+    #title
+    {
+        text-align: center;
+        height: 1300px;
+    }
+}
+#cta
+{
+    background-color: rgb(207, 56, 56);
+    text-align: center;
+    padding: 2% 20% 7%;
+    margin-bottom: 4%;
+}
+#cta h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    
+    padding-bottom: 3%;
+}
+#footer
+{
+    text-align: center;
+}
+.cta{
+    margin:2%;
+    margin-top: 5%;
+}
+.f3
+{
+    font-size: 1rem;
+    line-height: .8rem;
+    background-color: rgb(62, 64, 209);
+    color: white;
+}
+.f2
+{
+    background-color: rgb(62, 64, 209);
+    color: white;
+}
+.f1
+{
+    background-color: rgb(62, 64, 209);
+    color: white;
+}
+#footer .social
+{
+    margin: 1% 1%;
+}
